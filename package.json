@@ -1,0 +1,12 @@
+{
+  "name": "command-with-git-dependency",
+  "version": "0.1.0",
+  "description": "Node.js module for a local command with a git dependency.",
+  "main": "main.js",
+  "author": "Andrew n marshall",
+  "license": "BSD 3-clause",
+  "dependencies": {
+    "anm-math": "git://github.com/AnmAtAnm/anm-math-js-lib",
+    "anm-private": "git+ssh://git@bitbucket.org:AnmAtAnm/test-node-private-lib.git"
+  }
+}
